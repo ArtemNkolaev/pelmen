@@ -91,7 +91,7 @@ header{
 .krutoy{
     background-color: rgba(238, 216, 170, 0.452);
     backdrop-filter: blur(12px);
-    width: 919px;
+    width: 680px;
     border-radius: 12px;;
     font-size:  45px;
     text-align: center;
@@ -116,8 +116,26 @@ header{
 
 .name{
     padding-right: 50px !important;
+     
 }   
 
+.headBut{
+    transition: 0.3s;
+}
+
+.headBut:hover{
+    transform: scale(1.1);
+}
+
+.gog{
+    color: rgb(56, 56, 56);
+    transition: 0.4s;
+}
+
+.gog:hover{
+    color: rgb(0, 0, 0) ;
+    transform: scale(1.2);
+}   
 
 
 footer{
